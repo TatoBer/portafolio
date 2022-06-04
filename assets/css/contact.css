@@ -1,0 +1,67 @@
+form {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+input, textarea, input:focus, textarea:focus {
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    background-color: #00000038;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    margin: 1rem 0 2rem;
+    border-radius: 4px;
+    transition: background-color .3s ease, box-shadow .3s ease;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.295);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.288);
+}
+
+form button {
+    background: #00000038;
+    color: white;
+    margin: 1rem auto 3rem;
+    border: none;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color .3s ease;
+    max-width: 6rem;
+}
+
+form button:hover {
+    background: #0000005b;
+}
+
+#social-media img {
+    text-decoration: none;
+    width: 40px;
+    opacity: .48;
+    transition: opacity .3s ease;
+}
+
+#social-media img:hover {
+    opacity: .8;
+}
+
+#social-media a {
+    text-decoration: none;
+    width: 40px;
+    margin: 0 25px;
+    height: 40px;
+}
